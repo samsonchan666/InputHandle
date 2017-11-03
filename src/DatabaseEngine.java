@@ -1,6 +1,4 @@
-/**
- * Created by Samson on 2/11/2017.
- /**
+/* 
  * Created by Samson on 2/11/2017.
  */
 
