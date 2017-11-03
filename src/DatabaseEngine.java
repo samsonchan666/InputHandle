@@ -155,10 +155,51 @@ public class DatabaseEngine {
         }
     }
 
+    public void addFAQData()  throws URISyntaxException, SQLException{
+        Statement stmt = connection.createStatement();
 
+        String sqlDelete = "delete from FAQ";
+        stmt.executeUpdate(sqlDelete);
 
+        String sqlInsert = "insert into FAQ values (?, ?)";
 
+        PreparedStatement preparedStatement = connection.prepareStatement(sqlInsert);
 
+        String csvFile = "./faq_database.csv";
+        String line = null;
+        String cvsSplitBy = "?,";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
+
+            boolean first = true;
+            while ((line = br.readLine()) != null) {
+
+                //ignore first row
+                if (first) {
+                    first = false;
+                    continue;
+                }
+
+                // use comma as separator
+                String[] attribute = line.split(cvsSplitBy);
+
+                if (attribute.length < 2) continue;
+                preparedStatement.setString(1, attribute[0]);
+                preparedStatement.setString(2, attribute[1]);
+
+                preparedStatement .executeUpdate();
+
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        String strSelect = "select Question from FAQ";
+        ResultSet rset = stmt.executeQuery(strSelect);
+        while(rset.next()) {   // Move the cursor to the next row
+            System.out.println(rset.getString("Answer");
+        }
+    }
 
 
 }

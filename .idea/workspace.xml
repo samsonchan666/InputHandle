@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6ef800fc-6de1-4df9-9b80-7fbbd229896b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="6ef800fc-6de1-4df9-9b80-7fbbd229896b" name="Default" comment="" />
+>>>>>>> 50a6d1dea6680ab5dd82b8ff670fa905931506d8
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +34,13 @@
       <file leaf-file-name="DatabaseEngine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DatabaseEngine.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-720">
               <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+=======
+            <state relative-caret-position="2296">
+              <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+>>>>>>> 50a6d1dea6680ab5dd82b8ff670fa905931506d8
               <folding>
                 <element signature="e#0#6371#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -147,7 +156,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Line-chatbot-for-COMP3111-GP29" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -559,8 +568,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DatabaseEngine.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-720">
           <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+=======
+        <state relative-caret-position="2296">
+          <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+>>>>>>> 50a6d1dea6680ab5dd82b8ff670fa905931506d8
           <folding>
             <element signature="e#0#6371#0" expanded="true" />
             <element signature="imports" expanded="true" />
